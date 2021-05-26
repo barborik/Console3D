@@ -6,7 +6,7 @@ public class Main {
     static int cols;
     static int rows;
     static double angle = 0;
-    static char[][][] screenBuffer; // 0 - buffered screen | 1 - actual screen
+    static char[][][] screenBuffer; // 0 - back buffer | 1 - front buffer
     static Thread render = new Thread("renderThread") {
         @Override
         public void run() {
