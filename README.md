@@ -6,4 +6,4 @@
 ## usage
 ```java -jar Console3D.jar <model.obj> <width> <height>```
 
-the model must have all faces triangulated, I have included some models in the ![models](https://github.com/Barbo24/Console3D/tree/master/models) folder
+the model must have all faces triangulated, I have included some models in the [models](https://github.com/Barbo24/Console3D/tree/master/models) folder
